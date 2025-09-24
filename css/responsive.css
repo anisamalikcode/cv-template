@@ -12,7 +12,10 @@
         width: fit-content;
     }
     .skills{
-        width: 100% !important;
+        display: block;
+    }
+    .intrest{
+        display: block;
     }
     
 }
