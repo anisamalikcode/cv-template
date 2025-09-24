@@ -157,7 +157,7 @@ width: 80%;
 /********************************Right Column Starts  **************************/
 
 .right-col{
-  border:2px solid green;
+  border:2px solid rgb(6, 6, 6);
   height:auto;
   width:50vw;
   background:var(--light)
