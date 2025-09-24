@@ -1,0 +1,18 @@
+@media (max-width: 680px) {
+    .col{
+        flex-direction: column;
+        padding: 0 2rem;
+        width:50vw;
+    }
+    .right-col{
+        padding: 0;
+        margin: 0;
+    }
+    .cv-inner{
+        width: fit-content;
+    }
+    .skills{
+        width: 100% !important;
+    }
+    
+}
