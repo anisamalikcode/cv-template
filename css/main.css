@@ -1,0 +1,173 @@
+.container {
+  display:flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.row {
+  padding: 1.2rem;
+  display:flex;
+  
+}
+.col {
+  background-color: #212529;
+  height: auto;
+  width: 30vw;
+}
+.col .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width:30vw;
+}
+.visual {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+  border: 2px solid orange;
+  height: 30vh;
+  background-color: var(--primary);
+}
+.placeholder {
+  width: 200px; /* or any fixed value */
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid var(--primary);
+  transform: translate(0%, 33%);
+}
+.placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* name section */
+.intro {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 100px;
+  font-family: var(--font-family);
+}
+.intro .name {
+  color: var(--primary);
+  font-weight: var(--fw-600);
+}
+/* conatct section*/
+
+.cv-section{
+ min-width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.cv-inner{
+  width: 80%;
+ padding:20px;
+ 
+}
+.cv-header{
+  display: flex;
+  padding:10px;
+  gap: 1rem;
+  align-items: center;
+  color: var(--primary);
+}
+.cv-meta{
+  min-width: 80%;
+  position: relative;
+}
+.cv-meta::after{
+  content: "";
+  width: 80%;
+  height: 3px;
+  background-color: var(--hr-fg);
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  border-radius:4px;
+
+}
+
+.cv-meta::before{
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: var(--primary);
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  z-index: 1;
+  border-radius:2px;
+  
+}
+
+
+.cv-header .cv-icon{
+  background-color: var(--primary);
+  border-radius:100px;
+}
+.cv-icon .icon{
+  height:25px;
+  width:25px;
+  padding:2px;
+}
+.cv_body{
+  color: var(--light);
+}
+.cv-item{
+  padding:10px;
+  gap:1rem;
+  
+}
+.cv-item .heading{
+  color:var(--primary)
+}
+.cv-item p{
+  color:var(--light);
+}
+
+.skill{
+  position:relative;
+
+}
+.skill::after{
+  content: "" ; 
+  width:40%;
+  height:4px;
+  border-radius:2px;
+  background-color: var(--primary);
+  display:block;
+  position:absolute;
+  bottom:-6px;
+  z-index:1;
+}
+.skill::before{
+  content:"";
+  height:4px;
+  width:80%;
+  background:var(--hr-fg);
+  display:block;
+  position:absolute;
+  bottom:-6px;
+  border-radius:2px;
+}
+/********************************Right Column Starts  **************************/
+
+.right-col{
+  border:2px solid green;
+  height:auto;
+  width:50vw;
+  background:var(--light)
+}
+.info-head{
+  color:var(--dark);
+  font-family:var(--font-family)
+}
+.cv-body .body-para{
+  padding:20px;
+  font-family:var(--font-family);
+}

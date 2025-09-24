@@ -1,0 +1,17 @@
+:root{
+    /* colors */
+    --primary: #FEC001;
+    --secondary: #222A35;
+    --light: #fff;
+    --dark: #111;
+    --hr-fg: #363F4E;
+    --hr-fh: var(--primary);
+    /* fonts */
+    --font-family: "Roboto", sans-serif;
+    --fw-600: 600;
+    --fw-400: 400;
+    --fs-2x: 2rem;
+    --fs-4x: 4rem;
+    --fs-1x: 1rem;
+
+}
